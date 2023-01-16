@@ -24,6 +24,9 @@ public final class JoinMessage extends Plugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        createFiles();
+        registerConfig();
+        getProxy().getPluginManager().registerListener(this, this);
     }
 
     @Override
