@@ -1,0 +1,4 @@
+name: JoinMessage
+version: '${project.version}'
+main: me.skmanux.joinmessage.JoinMessage
+author: "sk_Manux"
